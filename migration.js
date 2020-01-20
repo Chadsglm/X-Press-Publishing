@@ -10,4 +10,10 @@ db.serialize(function() {
          'biography TEXT NOT NULL, ' +
          'is_currently_employed INTEGER NOT NULL DEFAULT 1, ' +
          'PRIMARY KEY(id) )');
+  // Holds entries for the various comic book series
+  db.run('CREATE TABLE IF NOT EXISTS Series ( ' +
+           'id INTEGER NOT NULL, ' +
+           'name TEXT NOT NULL, ' +
+           'description TEXT NOT NULL, ' +
+           'PRIMARY KEY(id) )');
 });
