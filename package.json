@@ -10,7 +10,7 @@
   "author": "Chad",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.7",
+    "bcrypt": "^5.0.0",
     "body-parse": "^0.1.0",
     "chai": "^4.1.2",
     "cors": "^2.8.5",
